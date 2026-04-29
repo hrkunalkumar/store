@@ -11,9 +11,9 @@ from io import BytesIO
 # ================= CONFIG =================
 BOT_TOKEN = '8626144455:AAE4OmHD5UW_hQdcTL9ZgeieW0gLHcFMjvk'
 ADMIN_ID = 1924277344
-MONGO_URI = 'mongodb+srv://hrkunalkumar:YOUR_PASSWORD@cluster0.u2jgbk5.mongodb.net/?retryWrites=true&w=majority'
+MONGO_URI = 'mongodb+srv://hrkunalkumar:<db_password>@cluster0.u2jgbk5.mongodb.net/?appName=Cluster0'
 UPI_ID = 'vipseller@nyes'
-DEFAULT_JOIN_LINK = 'https://t.me/your_channel'  # CHANGE THIS
+DEFAULT_JOIN_LINK = 'https://t.me/+lHsXAECaA6ZkZWJl'  # CHANGE THIS
 
 # Initialize
 bot = telebot.TeleBot(BOT_TOKEN)
